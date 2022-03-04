@@ -1,6 +1,13 @@
 # My Books
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+<div>
+    <div align = "center">
+        <img src="https://user-images.githubusercontent.com/47988061/156693061-3b4306b9-c381-42d5-b058-43c0001e8fd3.png" />
+        <small>Imagens da página inicial (esquerda) e de um usuário logado (direita).</small>
+    </div>
+</div>
+
 
 # Sobre o Projeto
 
