@@ -34,7 +34,7 @@ export default function ModalCard (props: ModalCardProps) {
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                                     {
                                         props.book ?
-                                        <>
+                                        <> 
                                             <h3 className="mb-1 text-md font-normal text-gray-500 dark:text-gray-400">{props.book.title}</h3>
                                             <h2 className="mb-5 text-sm font-normal text-gray-500 dark:text-gray-400">{props.book.authors ? props.book.authors[0] : ""}</h2>
                                         </>
