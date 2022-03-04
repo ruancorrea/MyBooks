@@ -34,11 +34,11 @@ export default function MyBooks() {
                 <></>
             }
             
-            <div className="flex h-screen justify-center bg-gray-50 dark:bg-gray-900">
-                <div style={{justifyContent:'center'}} className="w-full max-w-6xl 
+            <div className="flex min-h-screen justify-center bg-gray-50 dark:bg-gray-900">
+                <div style={{justifyContent:'center'}} className="w-full max-w-6xl
                             sm:mb-8 md:mb-16 mt-14 p-2"> 
-                    <div className={`mt-4 mb-4 
-                                    grid xs:grid-cols-1 sm:grid-cols-4 md:grid-cols-4 xl:grid-cols-6 `}>
+                    <div className={`mt-4 mb-4 min-h-screen
+                                    grid grid-cols-3 sm:grid-cols-3  md:grid-cols-4 xl:grid-cols-6 `}>
                         {
                             books.map((book, index) => {
                                 return (

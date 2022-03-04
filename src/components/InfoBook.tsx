@@ -46,7 +46,7 @@ export default function InfoBook (props: NewInfoBookProps) {
                             {/*<!-- Modal body -->*/}
                             <div className="p-6 space-y-6">
                                 <div className="flex flex-col md:flex-row items-center bg-white rounded-lg border shadow-md hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                                    <img className="ml-2 object-cover w-full h-96 rounded-t-lg md:h-auto md:w-auto md:rounded-none md:rounded-l-lg" src={props.book.thumbnail} alt="" />
+                                    <img className="ml-2 object-cover h-48 w-44 sm:h-48 sm:w-44 rounded-t-lg md:h-auto md:w-auto md:rounded-none md:rounded-l-lg" src={props.book.thumbnail} alt="" />
                                     <div className="flex flex-col justify-between p-4 leading-normal">
                                         <h5 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{props.book.title}</h5>
                                         {props.book.authors ?
