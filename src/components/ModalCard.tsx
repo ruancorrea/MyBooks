@@ -11,6 +11,7 @@ interface ModalCardProps {
 }
 
 export default function ModalCard (props: ModalCardProps) {
+    const yes = "Yes, I'm sure"
     return (
         <div className="flex w-screen items-center justify-center">
             {
@@ -48,7 +49,7 @@ export default function ModalCard (props: ModalCardProps) {
                                         props.setModalVisivel(false);
                                     }}
                                     data-modal-toggle="popup-modal" type="button" className="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2">
-                                        Yes, I'm sure
+                                        {yes}
                                     </button>
                                 :
 
@@ -57,7 +58,7 @@ export default function ModalCard (props: ModalCardProps) {
                                         props.setModalVisivel(false);
                                     }}
                                     data-modal-toggle="popup-modal" type="button" className="text-white bg-green-600 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2">
-                                        Yes, I'm sure
+                                        {yes}
                                     </button>
                                     }
                                 <button onClick={() => {props.setModalVisivel(false)}}
