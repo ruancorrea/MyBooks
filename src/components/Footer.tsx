@@ -4,7 +4,7 @@ export default function Footer() {
         <footer className="flex bg-gray-200 items-end h-full text-center text-white dark:bg-gray-800">
             <div className="container pt-9">
                 <div className="flex justify-center mb-9">
-                <a href="https://www.facebook.com/rhcs0/" target="_blank" className="mr-9 text-gray-800 dark:text-gray-300">
+                <a href="https://www.facebook.com/rhcs0/" target="_blank" rel="noreferrer" className="mr-9 text-gray-800 dark:text-gray-300">
                     <svg
                     aria-hidden="true"
                     focusable="false"
@@ -21,7 +21,7 @@ export default function Footer() {
                     ></path>
                     </svg>
                 </a>
-                <a href="https://twitter.com/correaruan_" target="_blank" className="mr-9 text-gray-800 dark:text-gray-300">
+                <a href="https://twitter.com/correaruan_" target="_blank" rel="noreferrer" className="mr-9 text-gray-800 dark:text-gray-300">
                     <svg
                     aria-hidden="true"
                     focusable="false"
@@ -38,7 +38,7 @@ export default function Footer() {
                     ></path>
                     </svg>
                 </a>
-                <a href="https://www.instagram.com/correaruan_/" target="_blank" className="mr-9 text-gray-800 dark:text-gray-300">
+                <a href="https://www.instagram.com/correaruan_/" target="_blank" rel="noreferrer" className="mr-9 text-gray-800 dark:text-gray-300">
                     <svg
                     aria-hidden="true"
                     focusable="false"
@@ -55,7 +55,7 @@ export default function Footer() {
                     ></path>
                     </svg>
                 </a>
-                <a href="https://www.linkedin.com/in/ruan-correa/" target="_blank" className="mr-9 text-gray-800 dark:text-gray-300">
+                <a href="https://www.linkedin.com/in/ruan-correa/" target="_blank" rel="noreferrer" className="mr-9 text-gray-800 dark:text-gray-300">
                     <svg
                     aria-hidden="true"
                     focusable="false"
@@ -72,7 +72,7 @@ export default function Footer() {
                     ></path>
                     </svg>
                 </a>
-                <a href="https://github.com/ruancorrea" target="_blank" className="text-gray-800 dark:text-gray-300">
+                <a href="https://github.com/ruancorrea" target="_blank" rel="noreferrer" className="text-gray-800 dark:text-gray-300">
                     <svg
                     aria-hidden="true"
                     focusable="false"
