@@ -3,7 +3,7 @@
 
 <div>
     <div align = "center">
-        <img src="https://user-images.githubusercontent.com/47988061/156693061-3b4306b9-c381-42d5-b058-43c0001e8fd3.png" />
+        <img src="https://user-images.githubusercontent.com/47988061/156693618-9bb74e04-87b8-4940-9946-233b656d9ad6.png" />
         <small>Imagens da página inicial (esquerda) e de um usuário logado (direita).</small>
     </div>
 </div>
