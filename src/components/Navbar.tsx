@@ -31,7 +31,7 @@ export default function Navbar() {
                   <h1 className="font-semibold text-xl dark:text-gray-100">
                   {user?.name.split(' ', 2).map((n, i) => {
                     return (
-                      <small className="text-lg">{n} </small>
+                      <small key={i} className="text-lg">{n} </small>
                       )
                     })}
                   </h1>
