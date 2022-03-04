@@ -17,7 +17,7 @@ export default function Card(props: CardProps) {
 
     return (
         <div>
-            <div className="md:max-w md:h-56 md:w-40 sm:w-28 sm:h-32 xs:w-28 xs:h-32 m-4 min-h-full rounded-md overflow-hidden shadow-lg hover:translate-y-5 duration-150">
+            <div className="md:max-w md:h-56 md:w-40 sm:w-28 sm:h-32 xs:w-28 xs:h-32 m-4 min-h-full rounded-md overflow-hidden shadow-lg dark:shadow-gray-700 dark:shadow-2xl hover:translate-y-5 duration-150">
                 <div className="flex justify-center w-full h-5 items-center p-4 bg-gradient-to-r mb-4 ">
                     <button onClick={() => {setModalInfoBookVisivel(true)}} className={`flex h-full justify-center text-blue-600
                                         rounded-full hover:bg-blue-50 px-1`}>{IconView}</button>

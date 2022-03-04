@@ -67,6 +67,14 @@ export default function Home(){
             <div className="max-w-md">
                 <div className="flex flex-col items-center dark:bg-gray-800">
                     <Image className="mb-3 shadow-lg dark:bg-gray-800" width={250} height={250} src={init} />
+                   
+                    <h2 className="dark:text-gray-300 mt-2 flex items-end w-full justify-center text-2xl font-normal leading-normal mb-1 text-black">
+                        
+                        <strong>
+                            My Books
+                        </strong>
+                    </h2>
+
                     <h2 className="dark:text-gray-300 flex items-end w-full justify-center text-2xl font-normal leading-normal mt-0 mb-2 text-black">
                         Log in to get free access to the platform.
                     </h2>
