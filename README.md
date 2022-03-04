@@ -28,7 +28,31 @@
     </ul>
 </div>
 
-## Tecnologias utilizadas
+# Demonstrações
+
+Os dois gifs acima mostraram o funcionamento da aplicação. 
+
+- Como entra na plataforma;
+- Pesquisando um livro;
+- Adicionando um livro;
+- Removendo um livro;
+- Mudando o modo de visualização (light ou dark);
+- O uso da paginação;
+- Como sair da plataforma;
+
+## Usuário sem livro adicionado
+<div align = "center">
+    <img src="https://user-images.githubusercontent.com/47988061/156697170-83fa98c6-fc32-495c-b1ab-fea018167bed.gif"/>
+</div>
+
+## Usuário com livros adicionados
+<div align = "center">
+    <img src="https://user-images.githubusercontent.com/47988061/156697293-9c670efc-b7a7-4233-be60-d7738ff119ea.gif"/>
+</div>
+
+
+
+# Tecnologias utilizadas
 <div>
     <ul>
         <li>NextJS</li>
@@ -41,6 +65,8 @@
         <li>next-themes</li>
     </ul>
 </div>
+
+
 
 # Autor
 
