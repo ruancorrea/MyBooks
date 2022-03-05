@@ -24,9 +24,7 @@ export default function AddBook() {
       } = useBooks()
 
     return(
-        <ContainerBlock>
-            <Auth />
-
+        <div>
             {
                 exibirMsg ?
                     <Alert alert={alert} color={color} />
@@ -34,34 +32,38 @@ export default function AddBook() {
                 :
                 <></>
             }
+            <ContainerBlock>
+                <Auth />
 
-            <div className="bg-gray-50 h-screen px-2 dark:bg-gray-900">
 
-                {
-                    infoLivroVisivel ?
-                    <>
-                        <ModalCard 
-                            text={`Are you sure you want to add this book?`} 
-                            modalVisivel={modalDeleteVisivel} setModalVisivel={setModalDeleteVisivel} 
-                            add={bookAdd} book={book}/>
+                <div className="bg-gray-50 min-h-screen px-2 dark:bg-gray-900">
 
-                        <InfoBook 
-                            book={book}
-                            bookAdd={bookAdd}
-                            setModalDeleteVisivel={setModalDeleteVisivel}
-                            setModalInfoBookVisivel={setModalInfoBookVisivel}
-                            modalVisivel={modalInfoBookVisivel}
-                            exibirPesquisarLivro={exibirPesquisarLivro}
-                            />
-                            </>
-                    :
-                    <>
-                    </>
-                }
+                    {
+                        infoLivroVisivel ?
+                        <>
+                            <ModalCard 
+                                text={`Are you sure you want to add this book?`} 
+                                modalVisivel={modalDeleteVisivel} setModalVisivel={setModalDeleteVisivel} 
+                                add={bookAdd} book={book}/>
 
-                <TableAddBook bookSelect={bookSelect} bookAdd={bookAdd} infoLivroVisivel={infoLivroVisivel} setModalInfoBookVisivel={setModalInfoBookVisivel} />  
+                            <InfoBook 
+                                book={book}
+                                bookAdd={bookAdd}
+                                setModalDeleteVisivel={setModalDeleteVisivel}
+                                setModalInfoBookVisivel={setModalInfoBookVisivel}
+                                modalVisivel={modalInfoBookVisivel}
+                                exibirPesquisarLivro={exibirPesquisarLivro}
+                                />
+                                </>
+                        :
+                        <>
+                        </>
+                    }
 
-            </div>
-        </ContainerBlock>
+                    <TableAddBook bookSelect={bookSelect} bookAdd={bookAdd} infoLivroVisivel={infoLivroVisivel} setModalInfoBookVisivel={setModalInfoBookVisivel} />  
+
+                </div>
+            </ContainerBlock>
+        </div>
     )
 }

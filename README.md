@@ -5,6 +5,7 @@
     <div align = "center">
         <img src="https://user-images.githubusercontent.com/47988061/156693618-9bb74e04-87b8-4940-9946-233b656d9ad6.png" />
         <small>Imagens da página inicial (esquerda) e de um usuário logado (direita).</small>
+        <a href="https://mybooks-delta.vercel.app/" target="_blank">https://mybooks-delta.vercel.app/</a>
     </div>
 </div>
 
