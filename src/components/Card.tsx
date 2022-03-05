@@ -28,7 +28,7 @@ export default function Card(props: CardProps) {
                                 bg-gradient-to- from-gray-50 to-gray-200   `}>
                     <img className="ml-2 object-cover w-full rounded-t-lg md:h-30 md:w-30 sm:h-20 sm:w-20 md:rounded-none md:rounded-l-lg" src={props.book.thumbnail} alt="" />
 
-                    <div className="font-bold text-sm text-center ">{props.book.title}</div>
+                    <div className="font-bold text-xs sm:text-sm text-center  ">{props.book.title}</div>
                     <p className="flex pb-2 text-xs text-gray-700 text-center dark:text-gray-300">{props.book.authors[0]}</p>
                 </div> 
             </div>

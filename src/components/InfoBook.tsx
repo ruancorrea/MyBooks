@@ -63,7 +63,7 @@ export default function InfoBook (props: NewInfoBookProps) {
                                         { indexDescricao == 300 ?
                                                 <></>
                                             :
-                                            <a onClick={iniciandoDescricao} className="flex cursor-pointer text-sm font-bold">VOLTAR PRO INICIO ...</a>
+                                            <a onClick={iniciandoDescricao} className="flex cursor-pointer text-sm font-bold">BACK TO TOP ...</a>
 
                                         }
                                         <div className="inline-flex mb-3 text-sm text-justify font-normal text-gray-700 dark:text-gray-400">{descricao}</div>
@@ -72,7 +72,7 @@ export default function InfoBook (props: NewInfoBookProps) {
                                             indexDescricao > props.book.description.length ?
                                             <></>
                                             :
-                                            <a className="cursor-pointer flex font-bold text-sm" onClick={atualizandoDescricao}>... VER MAIS</a>
+                                            <a className="cursor-pointer flex font-bold text-sm" onClick={atualizandoDescricao}>... VIEW MORE</a>
 
                                         }
                                     </div>
